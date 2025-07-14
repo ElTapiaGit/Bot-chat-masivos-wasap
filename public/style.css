@@ -1,0 +1,79 @@
+
+:root {
+    --fondo: #0D1926;
+    --verde: #10E698;
+    --blanco: #FFFFFF;
+    --azul: #194778;
+}
+
+
+body {
+    background: url('img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: var(--blanco);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: auto;
+    position: relative;
+}
+
+/* Fondo animado */
+
+.container {
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    background: rgba(13, 25, 38, 0.8);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(16, 230, 152, 0.3);
+}
+
+h2 {
+    color: var(--verde);
+    margin-bottom: 20px;
+}
+
+label {
+    color: var(--blanco);
+    font-weight: 600;
+}
+
+textarea, input[type="file"] {
+    background-color: #122735;
+    color: var(--blanco);
+    border: 1px solid var(--azul);
+}
+
+textarea:focus, input[type="file"]:focus {
+    border-color: var(--verde);
+    box-shadow: 0 0 10px var(--verde);
+}
+
+button {
+    background-color: var(--verde) !important;
+    color: var(--fondo);
+    border: none;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: var(--azul);
+    color: var(--blanco);
+    box-shadow: 0 0 10px var(--verde);
+}
+
+#qr {
+    border: 2px dashed var(--verde);
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+pre {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--verde);
+    border-radius: 10px;
+}
+#salida .fail {
+  color: #f44336; /* rojo */
+}
