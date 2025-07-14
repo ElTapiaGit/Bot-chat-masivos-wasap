@@ -1,0 +1,10 @@
+Iniciar node.js
+    npm init -y
+
+Instala las dependencias:
+    npm install express whatsapp-web.js csv-parser multer
+
+ejecutar:
+    node app.js -> http://localhost:3000
+
+los archivos a subir tienen que ser .csv
